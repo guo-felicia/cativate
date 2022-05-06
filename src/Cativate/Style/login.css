@@ -1,7 +1,9 @@
-body {
-    background-image: url("./public/img/bg.png");
-    background-color: #cccccc;
+.login-block {
+    background-image: url("../assets/images/bg.png");
+    /*background-color: #cccccc;*/
     font-family: 'Open Sans', sans-serif;
+    min-width: 1280px;
+    min-height: 720px;
 }
 
 .intro {
@@ -37,13 +39,13 @@ body {
     border-color: #00B97C;
 }
 
-.Header1{
+.header1{
     font-weight: bold;
     font-size: 25px;
     color: #344438;
 }
 
-.Header2{
+.header2{
     font-weight: bold;
     font-size: 18px;
     color: #344438;
@@ -58,10 +60,7 @@ body {
 }
 
 .button{
-    /*border-radius: 10px;*/
-    /*background-color: #00B97C;*/
-    width:90px;
-    height: 20px;
+    cursor: pointer;
 }
 
 .button_text{
